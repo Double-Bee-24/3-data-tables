@@ -91,8 +91,7 @@ function createMainRows(table, config, data, initialId) { // Create rows for tab
     const tableRow = tbody.insertRow(i);
 
     const numberTd = document.createElement("td");
-    const numberTdNode = document.createTextNode((data[i].id - initialId) + 1 ); // Reminder of id
-    console.log(initialId + " inId");
+    const numberTdNode = document.createTextNode((data[i].id - initialId) + 1 ); // Calculation of numbers depending on first element id
     numberTd.appendChild(numberTdNode);
     tableRow.appendChild(numberTd);
 
