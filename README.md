@@ -13,11 +13,11 @@ git clone https://github.com/Double-Bee-24/3-data-tables.git
 
 ## Navigation
 
-'images' directory contains pngs of up arrow and down arrow
+'images' directory contains pngs of up arrow and down arrow.
 
-'js' - a particular library directory
+'js' - the actual directory with the library.
 
-'styles' directory contains table styles document 
+'styles' directory contains table styles document .
  
 
 ## About project
